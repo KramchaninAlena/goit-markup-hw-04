@@ -168,8 +168,10 @@ padding-bottom: 120px;
 }
 
 .skills-icon{
-    padding: 24px 102px;
-    width: 264px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
     height: 112px;
     background-color: var(--light-color);
 }
@@ -322,7 +324,7 @@ fill: currentColor;
 
 .customers-item{
     width: 168px;
-    height: 88px;
+    
 }
 
 .customers-link {
@@ -331,7 +333,7 @@ fill: currentColor;
     align-items: center;
 
     width: 100%;
-    height: 100%;
+    height: 88px;
 
     color: #8E8F99;
     border: 1px solid #8E8F99;
@@ -359,8 +361,6 @@ fill: currentColor;
 }
 
 .footer{
-    max-width: 1440px;
-    margin: 0 auto;
     background-color:var(--secondary-text-color);
     padding-top: 100px;
     padding-bottom: 100px;
@@ -368,8 +368,11 @@ fill: currentColor;
 
 .container-footer{
     display: flex;
-    gap: 120px;
     align-items: baseline;
+}
+
+.footer-left-side{
+    margin-right: 120px;
 }
 
 .footer-text{
